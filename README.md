@@ -15,16 +15,20 @@ Steps to build cyanogenmod for Galaxy Mini 2:
 
 7. wait
 
-8. Apply Patches 
+8. cd vendor/cm
+
+9. ./get-prebuilts
+
+10. Apply Patches 
 	
 	- cd device/samsung/msm7x27a-common/patches
 	
 	- ./install.sh
 	
-8. source build/envsetup.sh
+11. source build/envsetup.sh
 
-9. lunch cm_jena-userdebug
+12. lunch cm_jena-userdebug
 
-10. croot
+13. croot
 
-11. brunch jena
+14. brunch jena
